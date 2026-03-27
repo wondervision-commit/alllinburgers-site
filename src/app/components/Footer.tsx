@@ -22,10 +22,16 @@ export function Footer({ openOrderModal }: FooterProps) {
           {/* Left - Logo & Tagline */}
           <div>
             <div className="flex flex-col leading-none mb-4">
-              <span className="text-[#FAFAFA] uppercase tracking-tight" style={{ fontFamily: 'var(--font-heading)', fontSize: '28px' }}>
+              <span
+                className="text-[#FAFAFA] uppercase tracking-tight"
+                style={{ fontFamily: 'var(--font-heading)', fontSize: '28px' }}
+              >
                 ALLL IN
               </span>
-              <span className="text-[#FAFAFA] uppercase tracking-tight" style={{ fontFamily: 'var(--font-heading)', fontSize: '22px' }}>
+              <span
+                className="text-[#FAFAFA] uppercase tracking-tight"
+                style={{ fontFamily: 'var(--font-heading)', fontSize: '22px' }}
+              >
                 BURGERS
               </span>
             </div>
@@ -156,7 +162,8 @@ export function Footer({ openOrderModal }: FooterProps) {
             fontSize: '14px',
           }}
         >
-          © 2026 ALLL IN Burgers. All rights reserved.
+          <p>Copyright 2026 ALLL IN Burgers. All rights reserved.</p>
+          <p className="mt-2">Website by Sunny Bharaj</p>
         </div>
       </div>
     </footer>
